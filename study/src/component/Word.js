@@ -25,3 +25,12 @@ export default function Word({word}){
             </tr>
     );
 }
+
+/*
+* REST API
+*
+* Create : POST  
+* Read : GET
+* Update : PUT
+* Delete : DELETE
+*/
