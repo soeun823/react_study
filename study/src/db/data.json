@@ -22,13 +22,6 @@
       "isDone": false
     },
     {
-      "id": "2",
-      "day": 1,
-      "eng": "apple",
-      "kor": "사과",
-      "isDone": false
-    },
-    {
       "id": "3",
       "day": 2,
       "eng": "car",
