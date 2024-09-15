@@ -11,6 +11,10 @@
     {
       "id": "3",
       "day": 3
+    },
+    {
+      "id": "d324",
+      "day": 4
     }
   ],
   "words": [
@@ -61,6 +65,13 @@
       "day": "3",
       "eng": "window",
       "kor": "창문",
+      "isDone": false
+    },
+    {
+      "id": "c11f",
+      "day": "4",
+      "eng": "monkey",
+      "kor": "원숭이",
       "isDone": false
     }
   ]

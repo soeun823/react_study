@@ -7,7 +7,7 @@ export default function Header(){
                 <Link to="/">영단어 2학기 2회</Link>
                 <div className="menu">
                     <Link to="/create_word" className="link">단어 추가</Link>
-                    <a href="#x" className="link">Day 추가</a>
+                    <Link to="/create_day" className="link">Day 추가</Link>
                 </div>
             </h1>
         </div>
