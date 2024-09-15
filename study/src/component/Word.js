@@ -5,10 +5,24 @@ export default function Word({word}){
     const [isDone, setIsDone] = useState(word.isDone);
 
     function toggleShow(){
-        setIsShow(!isShow)
+        setIsShow(!isShow);
     }
     function toggleDone(){
-        setIsDone(!isDone)
+        // setIsDone(!isDone)
+        fetch(`http://localhost:3001/words/${word.id}`,{
+            method : 'PUT',
+            headers : {
+                'Content-Type' : 'application/json',
+            },
+            body : JSON.stringify({
+                ...word,
+                isDone : !isDone,
+            }),
+        }).then( res => {
+            if(res.ok){
+                setIsDone(!isDone);
+            }
+        });
     }
 
     return (
