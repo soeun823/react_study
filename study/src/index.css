@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -46,7 +47,8 @@ a {
   margin-left: 10px;
   background-color: #efefef;
   font-weight: bold;
-  border-radius: 4px;
+  font-size: 1.5rem;
+  border-radius: 1rem;
 }
 
 .list_day {
@@ -66,7 +68,7 @@ a {
   font-weight: bold;
   color: #fff;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 1rem;
   background-color: dodgerblue;
 }
 
@@ -103,7 +105,7 @@ button {
   font-size: 18px;
   cursor: pointer;
   border: 0 none;
-  border-radius: 6px;
+  border-radius: 0.7rem;
   padding: 10px 20px;
   color: #fff;
   background-color: dodgerblue;
