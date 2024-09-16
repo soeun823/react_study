@@ -73,6 +73,13 @@
       "eng": "monkey",
       "kor": "원숭이",
       "isDone": false
+    },
+    {
+      "id": "30bf",
+      "day": "1",
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false
     }
   ]
 }
