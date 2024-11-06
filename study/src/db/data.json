@@ -16,7 +16,6 @@
       "id": "d324",
       "day": 4
     }
-
   ],
   "words": [
     {
@@ -24,13 +23,6 @@
       "day": 1,
       "eng": "book",
       "kor": "책",
-      "isDone": false
-    },
-    {
-      "id": "2",
-      "day": 1,
-      "eng": "apple",
-      "kor": "사과",
       "isDone": false
     },
     {
