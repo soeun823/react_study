@@ -1,0 +1,64 @@
+.wrapper {
+	margin: 15px auto;
+	width : 70%;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 8px;
+	box-shadow: 0 0 5px 0 grey;
+	background-color: white;
+	position : relative;
+}
+.container{
+margin: 15px auto;
+width : 70%;
+
+}
+input{
+	height: 30px;
+	width: 70%;
+	border: 1px solid lightgray;
+	border-radius:5px;
+}
+button{
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid lightgray
+}
+.wrapper:hover {
+	background-color: lightgray;
+}
+
+.control{
+	position : absolute;
+	right : 5%;
+}
+hr{
+	border : 0.7px solid #ccc;
+}
+#modal{
+	height: 20%;
+	background: lightyellow;
+	padding: 20px;
+}
+*{
+	margin : 0;
+}
+.wrapp{
+	padding: 16px;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #ccc;
+}    
+.greeting {
+	margin-right: 8px; 
+}
+.btn{
+	height: 30px;
+	border-radius: 5px;
+	background: lightseagreen;
+	border: 0;
+}
+.btn:hover{
+	background : lightblue;
+}
