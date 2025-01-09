@@ -1,11 +1,9 @@
-
-function App() {
-
-  return (
-    <>
-      <h1>댓글창 만들기</h1>
-    </>
-  )
-}
-
-export default App
+import "./styles.css";
+import CommentList from "./CommentList";
+function App(){
+return (
+  <div className="App">
+    <CommentList/>
+  </div>
+);}
+export default App;
